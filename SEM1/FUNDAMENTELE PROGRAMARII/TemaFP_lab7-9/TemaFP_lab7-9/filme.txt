@@ -1,0 +1,5 @@
+1,Spider-Man,No Way Home,comedie
+2,West Side Story,Poveste din cartierul de vest,drama
+3,The Matrix Resurrections,Matrix Renasterea,actiune
+4,The Green Knight,O aventura fantastica bazata pe legenda arthuriana atemporala,horror
+15,iuly,eu,pop

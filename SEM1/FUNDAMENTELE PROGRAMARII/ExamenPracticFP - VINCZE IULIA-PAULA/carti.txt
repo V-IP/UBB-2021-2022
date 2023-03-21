@@ -1,0 +1,4 @@
+1,Examen,Iulia,2022
+2,FP,Paula,2013
+3,Practic,Vincze,2010
+4,Titlu,Autor,2000
