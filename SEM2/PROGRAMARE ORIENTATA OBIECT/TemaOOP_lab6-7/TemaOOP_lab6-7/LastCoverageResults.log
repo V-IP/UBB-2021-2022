@@ -1,0 +1,22 @@
+[2022-04-12 19:42:35] [info] Start Program:
+Path:"D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\x64\Debug\TemaOOP_lab6-7.exe"
+Arguments:
+Working directory: "D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\"
+Modules: Selected: D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\x64\Debug\TemaOOP_lab6-7.exe Excluded: 
+Sources: Selected: D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7 Excluded: UI.h UI.cpp Obj.h Repository.h Service.h Validator.h 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Asus\AppData\Local\Temp\1q13itxj.mqx 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-12 19:42:37] [info] ----------------------------------------------------
+[2022-04-12 19:42:37] [info] Coverage binary generated in file: C:\Users\Asus\AppData\Local\Temp\1q13itxj.mqx
+[2022-04-12 19:42:37] [info] ----------------------------------------------------
+[2022-04-12 19:42:37] [warning] No modules were selected. Please check the values of --modules and --excluded_modules.
+You can try to remove all --modules and --excluded_modules and use --modules=D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\x64\Debug instead.

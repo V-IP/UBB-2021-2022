@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Obj.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Tenant', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Tenant::{ctor}</FUNCTION>
+    <DECORATED>??0Tenant@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class MyList&lt;class Tenant&gt;', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$MyList@VTenant@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>104</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

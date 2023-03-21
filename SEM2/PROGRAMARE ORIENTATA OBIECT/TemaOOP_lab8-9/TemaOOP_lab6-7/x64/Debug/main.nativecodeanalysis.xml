@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.h</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'WishList::WishList' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>WishList::{ctor}</FUNCTION>
+    <DECORATED>??0WishList@@QEAA@AEAVRepository@@@Z</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

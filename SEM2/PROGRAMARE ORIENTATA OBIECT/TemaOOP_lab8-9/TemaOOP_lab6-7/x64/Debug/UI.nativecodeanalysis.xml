@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.h</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'WishList::WishList' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>WishList::{ctor}</FUNCTION>
+    <DECORATED>??0WishList@@QEAA@AEAVRepository@@@Z</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>150</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@filtered' in call to 'Tenant::getSurface' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiFilter</FUNCTION>
+    <DECORATED>?uiFilter@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>101</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@filtered' in call to 'Tenant::getType' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiFilter</FUNCTION>
+    <DECORATED>?uiFilter@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>65</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@filtered' in call to 'Tenant::getOwner' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiFilter</FUNCTION>
+    <DECORATED>?uiFilter@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@filtered' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiFilter</FUNCTION>
+    <DECORATED>?uiFilter@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>150</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'tenant' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiFilter</FUNCTION>
+    <DECORATED>?uiFilter@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>150</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>149</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@sorted' in call to 'Tenant::getSurface' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiSort</FUNCTION>
+    <DECORATED>?uiSort@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>100</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@sorted' in call to 'Tenant::getType' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiSort</FUNCTION>
+    <DECORATED>?uiSort@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@sorted' in call to 'Tenant::getOwner' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiSort</FUNCTION>
+    <DECORATED>?uiSort@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@sorted' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiSort</FUNCTION>
+    <DECORATED>?uiSort@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>149</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'tenant' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiSort</FUNCTION>
+    <DECORATED>?uiSort@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>164</LINE>
+        <COLUMN>149</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>184</LINE>
+      <COLUMN>149</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'tenant' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::printAll</FUNCTION>
+    <DECORATED>?printAll@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>149</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>222</LINE>
+      <COLUMN>149</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'tenant' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::printWishList</FUNCTION>
+    <DECORATED>?printWishList@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>216</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>222</LINE>
+        <COLUMN>149</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>236</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'elem' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::saveToHtml</FUNCTION>
+    <DECORATED>?saveToHtml@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>225</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>236</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>261</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Variable 'opt' is uninitialized. Always initialize an object (type.5).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::run</FUNCTION>
+    <DECORATED>?run@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>259</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>opt</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

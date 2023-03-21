@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Obj.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Tenant', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Tenant::{ctor}</FUNCTION>
+    <DECORATED>??0Tenant@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Repository::modify</FUNCTION>
+    <DECORATED>?modify@Repository@@QEAAXAEBVTenant@@0@Z</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Repository::modify</FUNCTION>
+    <DECORATED>?modify@Repository@@QEAAXAEBVTenant@@0@Z</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>131</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::push_back</FUNCTION>
+    <DECORATED>?push_back@?$MyList@VTenant@@@@QEAAXVTenant@@@Z</DECORATED>
+    <FUNCLINE>125</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>134</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::push_back</FUNCTION>
+    <DECORATED>?push_back@?$MyList@VTenant@@@@QEAAXVTenant@@@Z</DECORATED>
+    <FUNCLINE>125</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'nodCurent' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::[]</FUNCTION>
+    <DECORATED>??A?$MyList@VTenant@@@@QEAAAEAVTenant@@H@Z</DECORATED>
+    <FUNCLINE>150</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>183</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'MyList&lt;Tenant&gt;::removeVal' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::removeVal</FUNCTION>
+    <DECORATED>?removeVal@?$MyList@VTenant@@@@QEAAXVTenant@@@Z</DECORATED>
+    <FUNCLINE>183</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>187</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::removeVal</FUNCTION>
+    <DECORATED>?removeVal@?$MyList@VTenant@@@@QEAAXVTenant@@@Z</DECORATED>
+    <FUNCLINE>183</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>185</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>185</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>186</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>187</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>187</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>187</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>191</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'elem' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::removeVal</FUNCTION>
+    <DECORATED>?removeVal@?$MyList@VTenant@@@@QEAAXVTenant@@@Z</DECORATED>
+    <FUNCLINE>183</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>191</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>216</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '(this-&gt;MyListIterator&lt;Tenant&gt;::current)' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>MyListIterator&lt;Tenant&gt;::++</FUNCTION>
+    <DECORATED>??E?$MyListIterator@VTenant@@@@QEAAXXZ</DECORATED>
+    <FUNCLINE>215</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>215</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'predecesor-&gt;next-&gt;next'. '(*predecesor).Nod&lt;Tenant&gt;::next' may have been invalidated at line 176 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::stergeNod</FUNCTION>
+    <DECORATED>?stergeNod@?$MyList@VTenant@@@@QEAAXPEAU?$Nod@VTenant@@@@@Z</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>176</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>179</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '(temporary 1)' in call to 'Nod&lt;Tenant&gt;::`scalar deleting destructor'' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::stergeNod</FUNCTION>
+    <DECORATED>?stergeNod@?$MyList@VTenant@@@@QEAAXPEAU?$Nod@VTenant@@@@@Z</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>176</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'predecesor' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::stergeNod</FUNCTION>
+    <DECORATED>?stergeNod@?$MyList@VTenant@@@@QEAAXPEAU?$Nod@VTenant@@@@@Z</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>176</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '(predecesor-&gt;Nod&lt;Tenant&gt;::next)' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::stergeNod</FUNCTION>
+    <DECORATED>?stergeNod@?$MyList@VTenant@@@@QEAAXPEAU?$Nod@VTenant@@@@@Z</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>176</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>179</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::stergeNod</FUNCTION>
+    <DECORATED>?stergeNod@?$MyList@VTenant@@@@QEAAXPEAU?$Nod@VTenant@@@@@Z</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>176</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

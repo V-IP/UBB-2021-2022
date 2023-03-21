@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.h</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'WishList::WishList' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>WishList::{ctor}</FUNCTION>
+    <DECORATED>??0WishList@@QEAA@AEAVRepository@@@Z</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function '&lt;lambda_55a2d5c73ace73035d520833ab879382&gt;::operator()' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Repository::find::&lt;lambda_55a2d5c73ace73035d520833ab879382&gt;::()</FUNCTION>
+    <DECORATED>??R&lt;lambda_55a2d5c73ace73035d520833ab879382&gt;@@QEBA@AEBVTenant@@@Z</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'allotemp.7'. '(temporary 7)' may have been invalidated at line 17 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Repository::find</FUNCTION>
+    <DECORATED>?find@Repository@@QEAAAEBVTenant@@H@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Repository.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(11's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>Repository::find</FUNCTION>
+    <DECORATED>?find@Repository@@QEAAAEBVTenant@@H@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Repository.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Repository::remove</FUNCTION>
+    <DECORATED>?remove@Repository@@QEAAXAEBVTenant@@@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Repository::modify</FUNCTION>
+    <DECORATED>?modify@Repository@@QEAAXAEBVTenant@@0@Z</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Repository::modify</FUNCTION>
+    <DECORATED>?modify@Repository@@QEAAXAEBVTenant@@0@Z</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 't' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>WishList::addToWishlist</FUNCTION>
+    <DECORATED>?addToWishlist@WishList@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Repository.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>WishList::addRandom</FUNCTION>
+    <DECORATED>?addRandom@WishList@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>WishList::addRandom</FUNCTION>
+    <DECORATED>?addRandom@WishList@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@dest' in call to 'std::vector&lt;Tenant,std::allocator&lt;Tenant&gt; &gt;::push_back' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>WishList::addRandom</FUNCTION>
+    <DECORATED>?addRandom@WishList@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Repository.cpp</FILENAME>
+        <LINE>85</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>WishList::addRandom</FUNCTION>
+    <DECORATED>?addRandom@WishList@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>97</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 't' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UnorderedMap::updateMap</FUNCTION>
+    <DECORATED>?updateMap@UnorderedMap@@QEAAXXZ</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Repository.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

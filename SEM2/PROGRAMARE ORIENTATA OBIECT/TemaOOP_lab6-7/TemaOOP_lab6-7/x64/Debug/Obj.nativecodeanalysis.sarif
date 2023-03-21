@@ -1,0 +1,177 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Tenant', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/Obj.h"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 2,
+                  "endLine": 18,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tenant::{ctor}",
+                  "decoratedName": "??0Tenant@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31104.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF6A8489CC0 -il C:\\Users\\Asus\\AppData\\Local\\Temp\\_CL_2420bd9cast -typedil -f Obj.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131104 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\Obj.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\UBB\\ANUL 1\\SEM 2\\PROGRAMARE ORIENTATA OBIECT\\TemaOOP_lab6-7\\TemaOOP_lab6-7 -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset Setari.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/Obj.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "50769324beb2d23de44f4f149905d683df6367bc4d55aadb7353bcb4ab8826bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "34dc7f52855e69301d3cedeeadeadcd543c3bb4760804f5ca1ec763abe2d41a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab6-7/temaoop_lab6-7/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "adef6ce86efdd7cf82c56d05d534434572255583a4c52f4cb06249cff77b38be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab6-7/temaoop_lab6-7/ui.h"
+          },
+          "hashes": {
+            "sha-256": "e3199fa7337fdf6ecd0b008e17206b898ed4c47be2b3b1ba9692bfac94ad1312"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab6-7/temaoop_lab6-7/service.h"
+          },
+          "hashes": {
+            "sha-256": "9ff645d4b01c59bf44bd5976cd11f61b00e082961c84b6a63ca7a7b8630ae1ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab6-7/temaoop_lab6-7/validator.h"
+          },
+          "hashes": {
+            "sha-256": "b9545610eb2ffced3ad77009aab818ecd7c652b46311710d93ba0ed707953c4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab6-7/temaoop_lab6-7/repository.h"
+          },
+          "hashes": {
+            "sha-256": "35a8ae75ebbcabb2347d421bdb9cce996324524878a5cb9a6a205360b374a847"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/Validator.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c50bd0cba53bc1ec0d3b7340b7973d45c562f66a0bda6af46a58ba3b633b3ade"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/UI.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a4352276aa446de61f6e718089047d6744210cab5dc2cedefafd681d7bd463b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab6-7/temaoop_lab6-7/service.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "01663dd060188b34e4bec52ee54818f06612414db9651a461421bdf16eb0a30b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/Repository.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2ed528d2d5bd2fa4f452f3481d9ce5231d3b74e581d222d69996cf1ccdd77d26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab6-7/temaoop_lab6-7/obj.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a7c082be7a7b017dd27bede4844d74add329aef289cb4a50b0eb1ec8b2dcfbab"
+          }
+        }
+      ]
+    }
+  ]
+}

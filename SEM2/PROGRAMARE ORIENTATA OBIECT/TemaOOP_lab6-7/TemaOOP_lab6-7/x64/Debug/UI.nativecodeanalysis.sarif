@@ -1,0 +1,456 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Tenant', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/Obj.h"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 2,
+                  "endLine": 18,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tenant::{ctor}",
+                  "decoratedName": "??0Tenant@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "Variable 'opt' is uninitialized. Always initialize an object (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/UI.cpp"
+                },
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 6,
+                  "endLine": 168,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ConsoleUI::run",
+                  "decoratedName": "?run@ConsoleUI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "opt"
+          }
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class MyList<class Tenant>', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 29,
+                  "endLine": 98,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyList<Tenant>::=",
+                  "decoratedName": "??4?$MyList@VTenant@@@@QEAAXAEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '(this->MyListIterator<Tenant>::current)' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 2,
+                  "endLine": 216,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyListIterator<Tenant>::++",
+                  "decoratedName": "??E?$MyListIterator@VTenant@@@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 215,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 216,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyList<Tenant>::copiaza",
+                  "decoratedName": "?copiaza@?$MyList@VTenant@@@@AEAAPEAU?$Nod@VTenant@@@@PEAU2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26403",
+          "message": {
+            "text": "Reset or explicitly delete an owner<T> pointer 'nod' (r.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 7,
+                  "endLine": 113,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyList<Tenant>::copiaza",
+                  "decoratedName": "?copiaza@?$MyList@VTenant@@@@AEAAPEAU?$Nod@VTenant@@@@PEAU2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 114,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 44
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26402",
+          "message": {
+            "text": "Return a scoped object instead of a heap-allocated if it has a move constructor (r.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 2,
+                  "endLine": 115,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyList<Tenant>::copiaza",
+                  "decoratedName": "?copiaza@?$MyList@VTenant@@@@AEAAPEAU?$Nod@VTenant@@@@PEAU2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '(*current).next' in call to 'MyList<Tenant>::copiaza' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 14,
+                  "endLine": 114,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyList<Tenant>::copiaza",
+                  "decoratedName": "?copiaza@?$MyList@VTenant@@@@AEAAPEAU?$Nod@VTenant@@@@PEAU2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 44
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31104.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF6A8489CC0 -il C:\\Users\\Asus\\AppData\\Local\\Temp\\_CL_613275dbast -typedil -f UI.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131104 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\UI.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\UBB\\ANUL 1\\SEM 2\\PROGRAMARE ORIENTATA OBIECT\\TemaOOP_lab6-7\\TemaOOP_lab6-7 -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset Setari.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/Obj.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "50769324beb2d23de44f4f149905d683df6367bc4d55aadb7353bcb4ab8826bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/VectorDinamic.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "440f1a0b5dc94f4b2cc8f96695acbdc6b44346953c1e9316641b1d5fcccb8da6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab6-7/temaoop_lab6-7/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "adef6ce86efdd7cf82c56d05d534434572255583a4c52f4cb06249cff77b38be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab6-7/temaoop_lab6-7/ui.h"
+          },
+          "hashes": {
+            "sha-256": "4debdf4e05f50ac5c20a5f7f354c4359231bcd241fd3330a11d322a243e0c663"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab6-7/temaoop_lab6-7/service.h"
+          },
+          "hashes": {
+            "sha-256": "cb31b7ea028f3ab04ffbe3575168ae0460fd5a16d3eda19571134381c2cb52b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab6-7/temaoop_lab6-7/validator.h"
+          },
+          "hashes": {
+            "sha-256": "b9545610eb2ffced3ad77009aab818ecd7c652b46311710d93ba0ed707953c4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab6-7/temaoop_lab6-7/repository.h"
+          },
+          "hashes": {
+            "sha-256": "35a8ae75ebbcabb2347d421bdb9cce996324524878a5cb9a6a205360b374a847"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab6-7/TemaOOP_lab6-7/UI.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7b10eb488504fcc132e04c24ec0190122b228a8eaa518fb4f320bdc5f038af2e"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1959 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.h</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'WishList::WishList' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>WishList::{ctor}</FUNCTION>
+    <DECORATED>??0WishList@@QEAA@AEAVRepository@@@Z</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function '&lt;lambda_55a2d5c73ace73035d520833ab879382&gt;::operator()' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Repository::find::&lt;lambda_55a2d5c73ace73035d520833ab879382&gt;::()</FUNCTION>
+    <DECORATED>??R&lt;lambda_55a2d5c73ace73035d520833ab879382&gt;@@QEBA@AEBVTenant@@@Z</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'allotemp.7'. '(temporary 7)' may have been invalidated at line 17 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Repository::find</FUNCTION>
+    <DECORATED>?find@Repository@@QEAAAEBVTenant@@H@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Repository.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(11's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>Repository::find</FUNCTION>
+    <DECORATED>?find@Repository@@QEAAAEBVTenant@@H@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Repository.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Repository::remove</FUNCTION>
+    <DECORATED>?remove@Repository@@QEAAXAEBVTenant@@@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Repository::modify</FUNCTION>
+    <DECORATED>?modify@Repository@@QEAAXAEBVTenant@@0@Z</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Repository::modify</FUNCTION>
+    <DECORATED>?modify@Repository@@QEAAXAEBVTenant@@0@Z</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 't' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>WishList::addToWishlist</FUNCTION>
+    <DECORATED>?addToWishlist@WishList@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Repository.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>WishList::addRandom</FUNCTION>
+    <DECORATED>?addRandom@WishList@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>WishList::addRandom</FUNCTION>
+    <DECORATED>?addRandom@WishList@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@dest' in call to 'std::vector&lt;Tenant,std::allocator&lt;Tenant&gt; &gt;::push_back' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>WishList::addRandom</FUNCTION>
+    <DECORATED>?addRandom@WishList@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Repository.cpp</FILENAME>
+        <LINE>85</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>WishList::addRandom</FUNCTION>
+    <DECORATED>?addRandom@WishList@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>97</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 't' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UnorderedMap::updateMap</FUNCTION>
+    <DECORATED>?updateMap@UnorderedMap@@QEAAXXZ</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Repository.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>81</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function '&lt;lambda_0593d3df1ceb3fe38106e3e6dbf118d9&gt;::operator()' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Service::filter_srv::&lt;lambda_0593d3df1ceb3fe38106e3e6dbf118d9&gt;::()</FUNCTION>
+    <DECORATED>??R&lt;lambda_0593d3df1ceb3fe38106e3e6dbf118d9&gt;@@QEBA@AEBVTenant@@@Z</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'cmp' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>Service::sort_srv</FUNCTION>
+    <DECORATED>?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>92</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Service::sort_srv</FUNCTION>
+    <DECORATED>?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>92</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Service::sort_srv</FUNCTION>
+    <DECORATED>?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>94</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Service::sort_srv</FUNCTION>
+    <DECORATED>?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>95</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Service::sort_srv</FUNCTION>
+    <DECORATED>?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>95</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Service::sort_srv</FUNCTION>
+    <DECORATED>?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Service::sort_srv</FUNCTION>
+    <DECORATED>?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>92</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@all' in call to 'icall' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>Service::sort_srv</FUNCTION>
+    <DECORATED>?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>94</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@all' in call to 'Tenant::Tenant' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>Service::sort_srv</FUNCTION>
+    <DECORATED>?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>95</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@all' in call to 'Tenant::operator=' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>Service::sort_srv</FUNCTION>
+    <DECORATED>?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>92</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'cmp' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Service::sort_srv</FUNCTION>
+    <DECORATED>?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>106</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'result.-&gt;' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Service::undo</FUNCTION>
+    <DECORATED>?undo@Service@@QEAAXXZ</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>343</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>344</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>345</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>346</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>349</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>350</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>351</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>352</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>355</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>356</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>357</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>358</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>361</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>362</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>363</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>364</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>367</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>368</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>369</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>370</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>373</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>374</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>375</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>376</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>343</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s1' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>344</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s1' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>345</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s1' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>346</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s1' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>349</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s2' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>350</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s2' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>351</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s2' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>352</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s2' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>355</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s3' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>354</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>356</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s3' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>354</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>357</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s3' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>354</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>358</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s3' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>354</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>361</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s4' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>362</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s4' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>363</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s4' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>364</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s4' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>367</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s5' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>368</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s5' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>369</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s5' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>370</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s5' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>373</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s6' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>372</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>374</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s6' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>372</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>375</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s6' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>372</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>376</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@s6' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>372</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>343</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>344</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>345</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>346</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>349</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>350</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>351</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>352</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>355</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>356</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>357</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>358</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>361</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>362</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>363</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>364</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>367</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>368</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>369</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>370</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>373</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>374</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>375</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>376</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSort</FUNCTION>
+    <DECORATED>?testSort@@YAXXZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>150</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@filtered' in call to 'Tenant::getSurface' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiFilter</FUNCTION>
+    <DECORATED>?uiFilter@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>101</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@filtered' in call to 'Tenant::getType' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiFilter</FUNCTION>
+    <DECORATED>?uiFilter@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>65</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@filtered' in call to 'Tenant::getOwner' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiFilter</FUNCTION>
+    <DECORATED>?uiFilter@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@filtered' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiFilter</FUNCTION>
+    <DECORATED>?uiFilter@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>150</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'tenant' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiFilter</FUNCTION>
+    <DECORATED>?uiFilter@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>150</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>149</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@sorted' in call to 'Tenant::getSurface' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiSort</FUNCTION>
+    <DECORATED>?uiSort@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>100</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@sorted' in call to 'Tenant::getType' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiSort</FUNCTION>
+    <DECORATED>?uiSort@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@sorted' in call to 'Tenant::getOwner' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiSort</FUNCTION>
+    <DECORATED>?uiSort@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@sorted' in call to 'Tenant::getNrAp' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiSort</FUNCTION>
+    <DECORATED>?uiSort@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>149</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'tenant' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::uiSort</FUNCTION>
+    <DECORATED>?uiSort@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>164</LINE>
+        <COLUMN>149</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>184</LINE>
+      <COLUMN>149</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'tenant' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::printAll</FUNCTION>
+    <DECORATED>?printAll@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>149</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>222</LINE>
+      <COLUMN>149</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'tenant' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::printWishList</FUNCTION>
+    <DECORATED>?printWishList@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>216</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>222</LINE>
+        <COLUMN>149</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>236</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'elem' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::saveToHtml</FUNCTION>
+    <DECORATED>?saveToHtml@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>225</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>UI.cpp</FILENAME>
+        <LINE>236</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>261</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Variable 'opt' is uninitialized. Always initialize an object (type.5).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::run</FUNCTION>
+    <DECORATED>?run@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>259</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>opt</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Validator.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ValidationException::getErrorMsg</FUNCTION>
+    <DECORATED>?getErrorMsg@ValidationException@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>Validator.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

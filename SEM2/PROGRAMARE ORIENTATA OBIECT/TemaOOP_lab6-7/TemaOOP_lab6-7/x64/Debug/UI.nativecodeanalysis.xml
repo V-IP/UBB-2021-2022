@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>Obj.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Tenant', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Tenant::{ctor}</FUNCTION>
+    <DECORATED>??0Tenant@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>UI.cpp</FILENAME>
+      <LINE>168</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Variable 'opt' is uninitialized. Always initialize an object (type.5).</DESCRIPTION>
+    <FUNCTION>ConsoleUI::run</FUNCTION>
+    <DECORATED>?run@ConsoleUI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>166</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>opt</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class MyList&lt;class Tenant&gt;', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::=</FUNCTION>
+    <DECORATED>??4?$MyList@VTenant@@@@QEAAXAEBV0@@Z</DECORATED>
+    <FUNCLINE>98</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>216</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '(this-&gt;MyListIterator&lt;Tenant&gt;::current)' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>MyListIterator&lt;Tenant&gt;::++</FUNCTION>
+    <DECORATED>??E?$MyListIterator@VTenant@@@@QEAAXXZ</DECORATED>
+    <FUNCLINE>215</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>215</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>113</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::copiaza</FUNCTION>
+    <DECORATED>?copiaza@?$MyList@VTenant@@@@AEAAPEAU?$Nod@VTenant@@@@PEAU2@@Z</DECORATED>
+    <FUNCLINE>109</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>113</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26403</DEFECTCODE>
+    <DESCRIPTION>Reset or explicitly delete an owner&lt;T&gt; pointer 'nod' (r.3).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::copiaza</FUNCTION>
+    <DECORATED>?copiaza@?$MyList@VTenant@@@@AEAAPEAU?$Nod@VTenant@@@@PEAU2@@Z</DECORATED>
+    <FUNCLINE>109</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>115</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26402</DEFECTCODE>
+    <DESCRIPTION>Return a scoped object instead of a heap-allocated if it has a move constructor (r.3).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::copiaza</FUNCTION>
+    <DECORATED>?copiaza@?$MyList@VTenant@@@@AEAAPEAU?$Nod@VTenant@@@@PEAU2@@Z</DECORATED>
+    <FUNCLINE>109</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>114</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '(*current).next' in call to 'MyList&lt;Tenant&gt;::copiaza' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>MyList&lt;Tenant&gt;::copiaza</FUNCTION>
+    <DECORATED>?copiaza@?$MyList@VTenant@@@@AEAAPEAU?$Nod@VTenant@@@@PEAU2@@Z</DECORATED>
+    <FUNCLINE>109</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

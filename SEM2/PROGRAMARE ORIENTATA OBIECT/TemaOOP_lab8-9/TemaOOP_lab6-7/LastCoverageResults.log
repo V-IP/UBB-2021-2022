@@ -1,0 +1,21 @@
+[2022-04-19 18:56:44] [info] Start Program:
+Path:"D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\x64\Debug\TemaOOP_lab6-7.exe"
+Arguments:
+Working directory: "D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7"
+Modules: Selected: D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\x64\Debug\TemaOOP_lab6-7.exe Excluded: 
+Sources: Selected: D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\TemaOOP_lab6-7 Excluded: UI.h UI.cpp Obj.h Repository.h Service.h Validator.h 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Asus\AppData\Local\Temp\uuovqiag.wxf 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-19 18:56:44] [info] Module: D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\x64\Debug\TemaOOP_lab6-7.exe is selected because it matches selected pattern: D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab7-8\x64\Debug\TemaOOP_lab6-7.exe
+[2022-04-19 18:56:46] [info] ----------------------------------------------------
+[2022-04-19 18:56:46] [info] Coverage binary generated in file: C:\Users\Asus\AppData\Local\Temp\uuovqiag.wxf
+[2022-04-19 18:56:46] [info] ----------------------------------------------------

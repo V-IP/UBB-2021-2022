@@ -1,0 +1,5 @@
+1,Name1,Type1,100
+3,Name3,Type3,3000
+5,Name5,Type5,5
+2,Name2,Type2,20
+10,iulia,iulia,10

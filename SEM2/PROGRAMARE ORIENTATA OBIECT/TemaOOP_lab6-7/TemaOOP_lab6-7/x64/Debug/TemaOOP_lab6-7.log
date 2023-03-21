@@ -1,0 +1,87 @@
+﻿  Repository.cpp
+  Service.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  TemaOOP_lab6-7.vcxproj -> D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\x64\Debug\TemaOOP_lab6-7.exe
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Obj.h(18): warning C26432: If you define or delete any default operation in the type 'class Tenant', define or delete them all (c.21).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(104): warning C26432: If you define or delete any default operation in the type 'class MyList<class Tenant>', define or delete them all (c.21).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Repository.cpp(49): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Repository.cpp(50): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(131): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(134): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(155): warning C26823: Dereferencing a possibly null pointer 'nodCurent' (lifetime.1).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(183): warning C26440: Function 'MyList<Tenant>::removeVal' can be declared 'noexcept' (f.6).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(187): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(191): warning C26823: Dereferencing a possibly null pointer 'elem' (lifetime.1).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(216): warning C26823: Dereferencing a possibly null pointer '(this->MyListIterator<Tenant>::current)' (lifetime.1).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(178): warning C26489: Don't dereference a pointer that may be invalid: 'predecesor->next->next'. '(*predecesor).Nod<Tenant>::next' may have been invalidated at line 176 (lifetime.1).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(179): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '(temporary 1)' in call to 'Nod<Tenant>::`scalar deleting destructor'' may be invalid (lifetime.3).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(177): warning C26823: Dereferencing a possibly null pointer 'predecesor' (lifetime.1).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(178): warning C26823: Dereferencing a possibly null pointer '(predecesor->Nod<Tenant>::next)' (lifetime.1).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(179): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(10): warning C26440: Function 'cmp_surface' can be declared 'noexcept' (f.6).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(27): warning C26440: Function 'cmpR_surface' can be declared 'noexcept' (f.6).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(87): warning C26429: Symbol 'cmp' is never tested for nullness, it can be marked as not_null (f.23).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(93): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(93): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(95): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(96): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(96): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(97): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(93): warning C26823: Dereferencing a possibly null pointer 'cmp' (lifetime.1).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(252): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(253): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(254): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(255): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(258): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(259): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(260): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(261): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(264): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(265): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(266): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(267): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(270): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(271): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(272): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(273): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(276): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(277): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(278): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(279): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(282): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(283): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(284): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(285): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(252): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(253): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(254): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(255): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(258): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(259): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(260): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(261): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(264): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(265): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(266): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(267): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(270): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(271): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(272): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(273): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(276): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(277): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(278): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(279): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(282): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(283): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(284): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Service.cpp(285): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(92): warning C26432: If you define or delete any default operation in the type 'class MyList<class Tenant>', define or delete them all (c.21).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(113): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(113): warning C26403: Reset or explicitly delete an owner<T> pointer 'nod' (r.3).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(115): warning C26402: Return a scoped object instead of a heap-allocated if it has a move constructor (r.3).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(114): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '(*current).next' in call to 'MyList<Tenant>::copiaza' may be invalid (lifetime.3).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\UI.cpp(168): warning C26494: Variable 'opt' is uninitialized. Always initialize an object (type.5).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\VectorDinamic.h(98): warning C26432: If you define or delete any default operation in the type 'class MyList<class Tenant>', define or delete them all (c.21).
+D:\UBB\ANUL 1\SEM 2\PROGRAMARE ORIENTATA OBIECT\TemaOOP_lab6-7\TemaOOP_lab6-7\Validator.cpp(5): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).

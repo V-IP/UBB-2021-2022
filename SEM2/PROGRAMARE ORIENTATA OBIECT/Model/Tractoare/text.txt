@@ -1,0 +1,4 @@
+1,Denumire1,Tip1,2
+2,Denumire2,Tip2,4
+3,Denumire3,Tip3,12
+4,Denumire4,Tip1,16

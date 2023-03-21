@@ -1,0 +1,3307 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'WishList::WishList' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.h"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 2,
+                  "endLine": 42,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WishList::{ctor}",
+                  "decoratedName": "??0WishList@@QEAA@AEAVRepository@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function '<lambda_0593d3df1ceb3fe38106e3e6dbf118d9>::operator()' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 4,
+                  "endLine": 81,
+                  "endColumn": 4
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::filter_srv::<lambda_0593d3df1ceb3fe38106e3e6dbf118d9>::()",
+                  "decoratedName": "??R<lambda_0593d3df1ceb3fe38106e3e6dbf118d9>@@QEBA@AEBVTenant@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26429",
+          "message": {
+            "text": "Symbol 'cmp' is never tested for nullness, it can be marked as not_null (f.23)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 31,
+                  "endLine": 86,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::sort_srv",
+                  "decoratedName": "?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 21,
+                  "endLine": 92,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::sort_srv",
+                  "decoratedName": "?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 13,
+                  "endLine": 92,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::sort_srv",
+                  "decoratedName": "?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 18,
+                  "endLine": 94,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::sort_srv",
+                  "decoratedName": "?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 14,
+                  "endLine": 95,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::sort_srv",
+                  "decoratedName": "?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 5,
+                  "endLine": 95,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::sort_srv",
+                  "decoratedName": "?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 5,
+                  "endLine": 96,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::sort_srv",
+                  "decoratedName": "?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@all' in call to 'icall' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 9,
+                  "endLine": 92,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::sort_srv",
+                  "decoratedName": "?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 1 '@all' in call to 'icall' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 9,
+                  "endLine": 92,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::sort_srv",
+                  "decoratedName": "?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@all' in call to 'Tenant::Tenant' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 16,
+                  "endLine": 94,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::sort_srv",
+                  "decoratedName": "?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@all' in call to 'Tenant::operator=' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 5,
+                  "endLine": 95,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::sort_srv",
+                  "decoratedName": "?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'cmp' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 9,
+                  "endLine": 92,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::sort_srv",
+                  "decoratedName": "?sort_srv@Service@@QEAA?BV?$vector@VTenant@@V?$allocator@VTenant@@@std@@@std@@P6A_NAEBVTenant@@0@Z@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'result.->' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 2,
+                  "endLine": 106,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Service::undo",
+                  "decoratedName": "?undo@Service@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 343,
+                  "startColumn": 2,
+                  "endLine": 343,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 344,
+                  "startColumn": 2,
+                  "endLine": 344,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 345,
+                  "startColumn": 2,
+                  "endLine": 345,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 346,
+                  "startColumn": 2,
+                  "endLine": 346,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 349,
+                  "startColumn": 2,
+                  "endLine": 349,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 350,
+                  "startColumn": 2,
+                  "endLine": 350,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 2,
+                  "endLine": 351,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 352,
+                  "startColumn": 2,
+                  "endLine": 352,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 355,
+                  "startColumn": 2,
+                  "endLine": 355,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 2,
+                  "endLine": 356,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 357,
+                  "startColumn": 2,
+                  "endLine": 357,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 358,
+                  "startColumn": 2,
+                  "endLine": 358,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 361,
+                  "startColumn": 2,
+                  "endLine": 361,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 362,
+                  "startColumn": 2,
+                  "endLine": 362,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 363,
+                  "startColumn": 2,
+                  "endLine": 363,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 364,
+                  "startColumn": 2,
+                  "endLine": 364,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 367,
+                  "startColumn": 2,
+                  "endLine": 367,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 368,
+                  "startColumn": 2,
+                  "endLine": 368,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 369,
+                  "startColumn": 2,
+                  "endLine": 369,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 370,
+                  "startColumn": 2,
+                  "endLine": 370,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 373,
+                  "startColumn": 2,
+                  "endLine": 373,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 374,
+                  "startColumn": 2,
+                  "endLine": 374,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 375,
+                  "startColumn": 2,
+                  "endLine": 375,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 376,
+                  "startColumn": 2,
+                  "endLine": 376,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s1' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 343,
+                  "startColumn": 2,
+                  "endLine": 343,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 342,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s1' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 344,
+                  "startColumn": 2,
+                  "endLine": 344,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 342,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s1' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 345,
+                  "startColumn": 2,
+                  "endLine": 345,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 342,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s1' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 346,
+                  "startColumn": 2,
+                  "endLine": 346,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 342,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s2' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 349,
+                  "startColumn": 2,
+                  "endLine": 349,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 348,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s2' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 350,
+                  "startColumn": 2,
+                  "endLine": 350,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 348,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s2' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 2,
+                  "endLine": 351,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 348,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s2' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 352,
+                  "startColumn": 2,
+                  "endLine": 352,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 348,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s3' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 355,
+                  "startColumn": 2,
+                  "endLine": 355,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s3' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 2,
+                  "endLine": 356,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s3' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 357,
+                  "startColumn": 2,
+                  "endLine": 357,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s3' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 358,
+                  "startColumn": 2,
+                  "endLine": 358,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s4' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 361,
+                  "startColumn": 2,
+                  "endLine": 361,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s4' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 362,
+                  "startColumn": 2,
+                  "endLine": 362,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s4' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 363,
+                  "startColumn": 2,
+                  "endLine": 363,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s4' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 364,
+                  "startColumn": 2,
+                  "endLine": 364,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s5' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 367,
+                  "startColumn": 2,
+                  "endLine": 367,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 366,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s5' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 368,
+                  "startColumn": 2,
+                  "endLine": 368,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 366,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s5' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 369,
+                  "startColumn": 2,
+                  "endLine": 369,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 366,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s5' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 370,
+                  "startColumn": 2,
+                  "endLine": 370,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 366,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s6' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 373,
+                  "startColumn": 2,
+                  "endLine": 373,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 372,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s6' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 374,
+                  "startColumn": 2,
+                  "endLine": 374,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 372,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s6' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 375,
+                  "startColumn": 2,
+                  "endLine": 375,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 372,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@s6' in call to 'Tenant::getNrAp' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 376,
+                  "startColumn": 2,
+                  "endLine": 376,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                          },
+                          "region": {
+                            "startLine": 372,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 343,
+                  "startColumn": 2,
+                  "endLine": 343,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 344,
+                  "startColumn": 2,
+                  "endLine": 344,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 345,
+                  "startColumn": 2,
+                  "endLine": 345,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 346,
+                  "startColumn": 2,
+                  "endLine": 346,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 349,
+                  "startColumn": 2,
+                  "endLine": 349,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 350,
+                  "startColumn": 2,
+                  "endLine": 350,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 2,
+                  "endLine": 351,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 352,
+                  "startColumn": 2,
+                  "endLine": 352,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 355,
+                  "startColumn": 2,
+                  "endLine": 355,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 2,
+                  "endLine": 356,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 357,
+                  "startColumn": 2,
+                  "endLine": 357,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 358,
+                  "startColumn": 2,
+                  "endLine": 358,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 361,
+                  "startColumn": 2,
+                  "endLine": 361,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 362,
+                  "startColumn": 2,
+                  "endLine": 362,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 363,
+                  "startColumn": 2,
+                  "endLine": 363,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 364,
+                  "startColumn": 2,
+                  "endLine": 364,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 367,
+                  "startColumn": 2,
+                  "endLine": 367,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 368,
+                  "startColumn": 2,
+                  "endLine": 368,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 369,
+                  "startColumn": 2,
+                  "endLine": 369,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 370,
+                  "startColumn": 2,
+                  "endLine": 370,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 373,
+                  "startColumn": 2,
+                  "endLine": 373,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 374,
+                  "startColumn": 2,
+                  "endLine": 374,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 375,
+                  "startColumn": 2,
+                  "endLine": 375,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+                },
+                "region": {
+                  "startLine": 376,
+                  "startColumn": 2,
+                  "endLine": 376,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testSort",
+                  "decoratedName": "?testSort@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31104.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF61F9D9CC0 -il C:\\Users\\Asus\\AppData\\Local\\Temp\\_CL_3de7f139ast -typedil -f Service.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131104 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\Service.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\UBB\\ANUL 1\\SEM 2\\PROGRAMARE ORIENTATA OBIECT\\TemaOOP_lab7-8\\TemaOOP_lab6-7 -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset Setari.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d70d3d777e358a1ad5f78e8ba386dff7c28130da437530555f92b8db03bd94bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Service.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9e6a9994ab4d1cbc7f0bdcbe280b3c7768fd2e6e96541870a57af00da842729e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab7-8/temaoop_lab6-7/service.h"
+          },
+          "hashes": {
+            "sha-256": "bfcc90582b45bf4ee59bfde1fdc780532c4d1ccc779a06a3f698eccec800238d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab7-8/temaoop_lab6-7/validator.h"
+          },
+          "hashes": {
+            "sha-256": "b9545610eb2ffced3ad77009aab818ecd7c652b46311710d93ba0ed707953c4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab7-8/temaoop_lab6-7/obj.h"
+          },
+          "hashes": {
+            "sha-256": "b6577b79a475aa245c58330961ce3f034ee5893358d9035a7152e07322573ce0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab7-8/temaoop_lab6-7/undo.h"
+          },
+          "hashes": {
+            "sha-256": "26aee99114a4ccea03b66213cd42dfd49d8aba89b344c728e1132c38bdc02cb2"
+          }
+        }
+      ]
+    }
+  ]
+}

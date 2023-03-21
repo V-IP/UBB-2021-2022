@@ -1,0 +1,549 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'WishList::WishList' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.h"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 2,
+                  "endLine": 42,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WishList::{ctor}",
+                  "decoratedName": "??0WishList@@QEAA@AEAVRepository@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function '<lambda_55a2d5c73ace73035d520833ab879382>::operator()' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 3,
+                  "endLine": 14,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repository::find::<lambda_55a2d5c73ace73035d520833ab879382>::()",
+                  "decoratedName": "??R<lambda_55a2d5c73ace73035d520833ab879382>@@QEBA@AEBVTenant@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26489",
+          "message": {
+            "text": "Don't dereference a pointer that may be invalid: 'allotemp.7'. '(temporary 7)' may have been invalidated at line 17 (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 3,
+                  "endLine": 17,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repository::find",
+                  "decoratedName": "?find@Repository@@QEAAAEBVTenant@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26487",
+          "message": {
+            "text": "Don't return a pointer '(11's result)' that may be invalid (lifetime.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 3,
+                  "endLine": 17,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repository::find",
+                  "decoratedName": "?find@Repository@@QEAAAEBVTenant@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 27,
+                  "endLine": 41,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repository::remove",
+                  "decoratedName": "?remove@Repository@@QEAAXAEBVTenant@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 7,
+                  "endLine": 51,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repository::modify",
+                  "decoratedName": "?modify@Repository@@QEAAXAEBVTenant@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 4,
+                  "endLine": 52,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repository::modify",
+                  "decoratedName": "?modify@Repository@@QEAAXAEBVTenant@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 't' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 7,
+                  "endLine": 62,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WishList::addToWishlist",
+                  "decoratedName": "?addToWishlist@WishList@@QEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 23,
+                  "endLine": 88,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WishList::addRandom",
+                  "decoratedName": "?addRandom@WishList@@QEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Don't use C-style casts (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 12,
+                  "endLine": 80,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WishList::addRandom",
+                  "decoratedName": "?addRandom@WishList@@QEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@dest' in call to 'std::vector<Tenant,std::allocator<Tenant> >::push_back' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 4,
+                  "endLine": 88,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WishList::addRandom",
+                  "decoratedName": "?addRandom@WishList@@QEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 23,
+                  "endLine": 88,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WishList::addRandom",
+                  "decoratedName": "?addRandom@WishList@@QEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 't' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 19,
+                  "endLine": 97,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UnorderedMap::updateMap",
+                  "decoratedName": "?updateMap@UnorderedMap@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31104.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF61F9D9CC0 -il C:\\Users\\Asus\\AppData\\Local\\Temp\\_CL_77013d08ast -typedil -f Repository.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131104 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\Repository.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\UBB\\ANUL 1\\SEM 2\\PROGRAMARE ORIENTATA OBIECT\\TemaOOP_lab7-8\\TemaOOP_lab6-7 -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset Setari.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d70d3d777e358a1ad5f78e8ba386dff7c28130da437530555f92b8db03bd94bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/UBB/ANUL 1/SEM 2/PROGRAMARE ORIENTATA OBIECT/TemaOOP_lab7-8/TemaOOP_lab6-7/Repository.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8760278c7883088f25cdc1a5271797394dc2f958125bc2f0f03a05e11759f4b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab7-8/temaoop_lab6-7/obj.h"
+          },
+          "hashes": {
+            "sha-256": "b6577b79a475aa245c58330961ce3f034ee5893358d9035a7152e07322573ce0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul 1/sem 2/programare orientata obiect/temaoop_lab7-8/temaoop_lab6-7/undo.h"
+          },
+          "hashes": {
+            "sha-256": "26aee99114a4ccea03b66213cd42dfd49d8aba89b344c728e1132c38bdc02cb2"
+          }
+        }
+      ]
+    }
+  ]
+}
