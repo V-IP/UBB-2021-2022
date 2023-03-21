@@ -1,0 +1,79 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit,printf,scanf
+     5                                  import exit msvcrt.dll
+     6                                  import printf msvcrt.dll
+     7                                  import scanf msvcrt.dll
+     8                                  
+     9                                  segment data use32 class=data
+    10                                      
+    11 00000000 00000000                    a dd 0
+    12 00000004 00000000                    b dd 0
+    13 00000008 613D00                      mesaja db "a=", 0
+    14 0000000B 623D00                      mesajb db "b=", 0
+    15 0000000E 256400                      format db "%d", 0
+    16 00000011 2564203C20256400            mesaj_MaiMic db "%d < %d", 0
+    17 00000019 2564203E20256400            mesaj_MaiMare db "%d > %d", 0
+    18 00000021 2564203D20256400            mesaj_Egal db "%d = %d", 0
+    19                                      
+    20                                  segment code use32 class=code
+    21                                      start:
+    22                                          ;Apeluri de functii sistem - VINCZE IULIA-PAULA
+    23                                          ;25. Sa se citeasca de la tastatura doua numere a si b (in baza 10) şi să se determine relaţia de ordine dintre ele (a < b, a = b sau a > b). Afisati rezultatul în următorul format: "<a> < <b>, <a> = <b
+    24                                          
+    25 00000000 68[08000000]                    push dword mesaja
+    26 00000005 FF15[00000000]                  call [printf]
+    27 0000000B 83C404                          add esp, 4*1
+    28                                          
+    29 0000000E 68[00000000]                    push dword a
+    30 00000013 68[0E000000]                    push dword format
+    31 00000018 FF15[00000000]                  call [scanf]
+    32 0000001E 83C408                          add esp, 4*2
+    33                                          
+    34 00000021 68[0B000000]                    push dword mesajb
+    35 00000026 FF15[00000000]                  call [printf]
+    36 0000002C 83C404                          add esp, 4*1
+    37                                          
+    38 0000002F 68[04000000]                    push dword b
+    39 00000034 68[0E000000]                    push dword format
+    40 00000039 FF15[00000000]                  call [scanf]
+    41 0000003F 83C408                          add esp, 4*2
+    42                                          
+    43 00000042 A1[00000000]                    mov eax, [a]
+    44 00000047 8B0D[04000000]                  mov ecx, [b]
+    45                                          
+    46 0000004D 39C8                            cmp eax, ecx
+    47 0000004F 7E1A                            jle micSAUegal
+    48                                          
+    49                                          ;daca a > b
+    50 00000051 FF35[04000000]                  push dword [b]
+    51 00000057 FF35[00000000]                  push dword [a]
+    52 0000005D 68[19000000]                    push dword mesaj_MaiMare
+    53 00000062 FF15[00000000]                  call [printf]
+    54 00000068 83C40C                          add esp, 4*3
+    55                                          
+    56                                          micSAUegal:
+    57 0000006B 39C8                            cmp eax, ecx
+    58 0000006D 751A                            jne egal
+    59                                          
+    60                                          ;daca a < b
+    61 0000006F FF35[04000000]                  push dword [b]
+    62 00000075 FF35[00000000]                  push dword [a]
+    63 0000007B 68[11000000]                    push dword mesaj_MaiMic
+    64 00000080 FF15[00000000]                  call [printf]
+    65 00000086 83C40C                          add esp, 4*3
+    66                                          
+    67                                          egal:
+    68                                          
+    69                                          ;daca a = b
+    70 00000089 FF35[04000000]                  push dword [b]
+    71 0000008F FF35[00000000]                  push dword [a]
+    72 00000095 68[21000000]                    push dword mesaj_Egal
+    73 0000009A FF15[00000000]                  call [printf]
+    74 000000A0 83C40C                          add esp, 4*3
+    75                                          
+    76                                          final:
+    77                                          
+    78 000000A3 6A00                            push    dword 0
+    79 000000A5 FF15[00000000]                  call    [exit]

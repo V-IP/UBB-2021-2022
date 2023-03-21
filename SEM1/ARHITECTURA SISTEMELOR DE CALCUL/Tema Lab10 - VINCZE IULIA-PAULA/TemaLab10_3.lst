@@ -1,0 +1,105 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit,fopen,fread,fclose,printf
+     5                                  import exit msvcrt.dll
+     6                                  import fopen msvcrt.dll
+     7                                  import fread msvcrt.dll
+     8                                  import fclose msvcrt.dll
+     9                                  import printf msvcrt.dll
+    10                                  
+    11                                  segment data use32 class=data
+    12                                      
+    13                                      ; in fisier este sirul: acdaace
+    14 00000000 00                          pozitie_litera db 0
+    15 00000001 00                          aparitie db 0
+    16 00000002 00000000                    x dd 0
+    17 00000006 FFFFFFFF                    fd dd -1
+    18 0000000A 6669736965722E7478-         nume_fisier db "fisier.txt", 0
+    18 00000013 7400               
+    19 00000015 7200                        mod_acces db "r", 0
+    20 00000017 4C6974657261206375-         mesaj db "Litera cu cea mai mare frecventa este %c si apare de %d ori", 0
+    20 00000020 20636561206D616920-
+    20 00000029 6D6172652066726563-
+    20 00000032 76656E746120657374-
+    20 0000003B 652025632073692061-
+    20 00000044 706172652064652025-
+    20 0000004D 64206F726900       
+    21 00000053 00<rept>                    frecventa times 26 db 0
+    22                                      
+    23                                  segment code use32 class=code
+    24                                      start:
+    25                                          ;Operatii cu fisiere text - VINCZE M. IULIA-PAULA
+    26                                          ;7. Se da un fisier text. Sa se citeasca continutul fisierului, sa se determine litera mica (lowercase) cu cea mai mare frecventa si sa se afiseze acea litera, impreuna cu frecventa acesteia. Numele fisierul
+    27                                          
+    28                                          ; atentie la fisier!!
+    29                                          
+    30                                          ;fopen(mod_acces,nume_fisier)
+    31 00000000 68[15000000]                    push dword mod_acces
+    32 00000005 68[0A000000]                    push dword nume_fisier
+    33 0000000A FF15[00000000]                  call [fopen]
+    34 00000010 83C408                          add esp, 4*2
+    35                                          
+    36 00000013 A3[06000000]                    mov [fd], eax ;salvam valoarea returnata de fopen in variabila fd
+    37 00000018 83F800                          cmp eax, 0
+    38 0000001B 0F849A000000                    je eroare ;verificam daca functia fopen a creat cu succes fisierul (daca EAX != 0)
+    39                                          
+    40                                          bucla:
+    41                                              ;fread(x, 1, 1, fd)
+    42 00000021 FF35[06000000]                      push dword [fd]
+    43 00000027 6A01                                push dword 1
+    44 00000029 6A01                                push dword 1
+    45 0000002B 68[02000000]                        push dword x
+    46 00000030 FF15[00000000]                      call [fread]
+    47 00000036 83C410                              add esp, 4*4
+    48                                              
+    49 00000039 83F800                              cmp eax, 0
+    50 0000003C 741E                                je final_bucla
+    51                                              
+    52 0000003E B800000000                          mov eax, 0
+    53 00000043 A1[02000000]                        mov eax, [x]
+    54 00000048 83E861                              sub eax, 'a'
+    55 0000004B 8B98[53000000]                      mov ebx, [frecventa+eax]
+    56 00000051 83C301                              add ebx, 1
+    57 00000054 8898[53000000]                      mov [frecventa+eax], bl
+    58                                              
+    59 0000005A EBC5                                jmp bucla
+    60                                              
+    61                                          final_bucla:
+    62                                              ;fclose(fd)
+    63 0000005C FF35[06000000]                      push dword [fd]
+    64 00000062 FF15[00000000]                      call [fclose]
+    65 00000068 83C404                              add esp, 4
+    66                                              
+    67                                              ;caut maximul din sirul de frecventa
+    68 0000006B BE[53000000]                        mov esi, frecventa
+    69 00000070 FC                                  cld
+    70 00000071 B91A000000                          mov ecx, 26
+    71 00000076 BB00000000                          mov ebx, 0
+    72                                              
+    73 0000007B C705[02000000]0000-                 mov dword [x], 0
+    73 00000083 0000               
+    74                                              repeta:
+    75 00000085 B800000000                              mov eax, 0
+    76 0000008A AC                                      lodsb
+    77 0000008B 663B05[01000000]                        cmp ax, [aparitie] ;compar val din vector cu maximul
+    78 00000092 7607                                    jbe urm ;daca nu e mai mare, trec peste
+    79 00000094 A2[01000000]                            mov [aparitie], al ;salvez nr de aparitii
+    80 00000099 89CB                                    mov ebx, ecx ;salvez in ebx pozitia din sir
+    81                                                  
+    82                                                  urm:
+    83 0000009B E2E8                                        loop repeta
+    84                                          
+    85 0000009D 8B83[53000000]                  mov eax, [frecventa+ebx]
+    86 000000A3 83C061                          add eax, 'a' ;din pozitie, transform in litera corespunzatoare
+    87                                          
+    88                                          ;printf(mesaj,caracter,nr aparitii)
+    89 000000A6 FF35[01000000]                  push dword [aparitie]
+    90 000000AC 50                              push eax
+    91 000000AD 68[17000000]                    push dword mesaj
+    92 000000B2 FF15[00000000]                  call [printf]
+    93 000000B8 83C40C                          add esp, 4*3
+    94                                              
+    95                                          eroare:
+    96 000000BB 6A00                                push dword 0
+    97 000000BD FF15[00000000]                      call [exit]

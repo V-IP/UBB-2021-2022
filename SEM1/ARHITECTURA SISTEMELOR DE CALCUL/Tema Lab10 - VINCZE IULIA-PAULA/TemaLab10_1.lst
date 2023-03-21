@@ -1,0 +1,39 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit,printf
+     5                                  import exit msvcrt.dll
+     6                                  import printf msvcrt.dll
+     7                                  
+     8                                  segment data use32 class=data
+     9                                      
+    10 00000000 17000000                    a dd 23
+    11 00000004 0000                        b dw 0
+    12 00000006 2564206D6F64202564-         format db "%d mod %d = %d", 0
+    12 0000000F 203D20256400       
+    13                                      
+    14                                  segment code use32 class=code
+    15                                      start:
+    16                                          ;Apeluri de functii sistem - VINCZE M. IULIA-PAULA
+    17                                          ;7. Se dau doua numere naturale a si b (a: dword, b: word, definite in segmentul de date). Sa se calculeze a/b si sa se afiseze restul impartirii in urmatorul format: "<a> mod <b> = <rest>"
+    18                                          ;Exemplu: pentru a = 23 si b = 5 se va afisa: "23 mod 5 = 3"
+    19                                          ;Valorile vor fi afisate in format decimal (baza 10) cu semn.
+    20                                          
+    21 00000000 66A1[00000000]                  mov ax, [a]
+    22 00000006 668B15[02000000]                mov dx, [a+2]
+    23 0000000D 668B1D[04000000]                mov bx, [b]
+    24 00000014 66F7FB                          idiv bx
+    25                                          
+    26 00000017 6689D0                          mov ax, dx
+    27 0000001A 98                              cwde
+    28 0000001B 50                              push eax
+    29 0000001C 6689D8                          mov ax, bx
+    30 0000001F 98                              cwde
+    31 00000020 50                              push eax
+    32 00000021 FF35[00000000]                  push dword [a]
+    33 00000027 68[06000000]                    push format
+    34 0000002C FF15[00000000]                  call [printf]
+    35 00000032 83C410                          add esp, 4*4
+    36                                          
+    37 00000035 6A00                            push    dword 0
+    38 00000037 FF15[00000000]                  call    [exit]

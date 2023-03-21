@@ -1,0 +1,70 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit, fopen, fprintf, fclose
+     5                                  import exit msvcrt.dll
+     6                                  import fopen msvcrt.dll
+     7                                  import fprintf msvcrt.dll
+     8                                  import fclose msvcrt.dll
+     9                                  
+    10                                  segment data use32 class=data
+    11                                      
+    12 00000000 416E61206172652037-         text db "Ana are 7 mere.", 0
+    12 00000009 206D6572652E00     
+    13                                      len equ $-text
+    14 00000010 6E756D652E74787400          nume_fisier db "nume.txt", 0
+    15 00000019 7700                        mod_acces db "w", 0
+    16 0000001B 256300                      format db "%c", 0
+    17 0000001E FF                          fd db -1
+    18 0000001F 00                          c db 0
+    19                                      
+    20                                  segment code use32 class=code
+    21                                      start:
+    22                                          ;Operatii cu fisiere text - VINCZE IULIA PAULA
+    23                                          ;25. Se dau un nume de fisier si un text (definite in segmentul de date). Textul contine litere mici, litere mari, cifre si caractere speciale. Sa se inlocuiasca toate spatiile din textul dat cu caracterul '
+    24                                          
+    25                                          ;fopen(nume_fisier, mod_acces)
+    26 00000000 68[19000000]                    push dword mod_acces
+    27 00000005 68[10000000]                    push dword nume_fisier
+    28 0000000A FF15[00000000]                  call [fopen]
+    29 00000010 83C408                          add esp, 4*2
+    30                                          
+    31 00000013 A3[1E000000]                    mov [fd], eax
+    32 00000018 83F800                          cmp eax, 0
+    33 0000001B 7442                            je final
+    34                                          
+    35 0000001D BE[00000000]                    mov esi, text
+    36 00000022 B910000000                      mov ecx, len
+    37                                          
+    38                                          repeta:
+    39 00000027 AC                                  lodsb
+    40 00000028 3C00                                cmp al, 0
+    41 0000002A 7424                                je final_bucla
+    42 0000002C BB00000000                          mov ebx, 0
+    43 00000031 88C3                                mov bl, al
+    44 00000033 3C20                                cmp al, ' '
+    45 00000035 7502                                jne urm
+    46                                              
+    47 00000037 B353                                mov bl, 'S'
+    48                                              
+    49                                              urm:
+    50                                                  ;fprintf(fd, format, caracter)
+    51 00000039 53                                      push ebx
+    52 0000003A 68[1B000000]                            push dword format
+    53 0000003F FF35[1E000000]                          push dword [fd]
+    54 00000045 FF15[00000000]                          call [fprintf]
+    55 0000004B 83C40C                                  add esp, 4*3
+    56                                                  
+    57 0000004E EBD7                            jmp repeta
+    58                                          
+    59                                          final_bucla:
+    60                                          
+    61                                          ;fclose(fd)
+    62 00000050 FF35[1E000000]                  push dword [fd]
+    63 00000056 FF15[00000000]                  call [fclose]
+    64 0000005C 83C404                          add esp, 4
+    65                                          
+    66                                          final:
+    67                                          
+    68 0000005F 6A00                            push    dword 0
+    69 00000061 FF15[00000000]                  call    [exit]

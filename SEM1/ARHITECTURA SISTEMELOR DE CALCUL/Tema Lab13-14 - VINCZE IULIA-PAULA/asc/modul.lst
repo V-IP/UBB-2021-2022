@@ -1,0 +1,36 @@
+     1                                  bits 32
+     2                                  global prefix
+     3                                      
+     4                                  segment code use32 class=code public
+     5                                      prefix:
+     6                                          ;7. Se dau trei siruri de caractere. Sa se afiseze cel mai lung prefix comun pentru fiecare din cele trei perechi de cate doua siruri ce se pot forma.
+     7                                          ;Programare multi-modul (asm+asm) - VINCZE IULIA-PAULA
+     8                                          
+     9                                          ;[ESP]    <- adresa de revenire
+    10                                          ;[ESP+4]  <- adresa lui sir1
+    11                                          ;[ESP+8]  <- lungimea lui sir1
+    12                                          ;[ESP+12] <- adresa lui sir2
+    13                                          ;[ESP+16] <- adresa rezultatului
+    14                                          
+    15 00000000 8B742404                        mov esi, [ESP+4]
+    16 00000004 FC                              cld
+    17 00000005 8B7C2410                        mov edi, [ESP+16]
+    18 00000009 8B4C2408                        mov ecx, [ESP+8]
+    19 0000000D E315                            jecxz final
+    20                                          
+    21 0000000F 8B5C2404                        mov ebx, [ESP+4]
+    22 00000013 8B54240C                        mov edx, [ESP+12]
+    23                                          
+    24                                          repeta:
+    25 00000017 8A03                                mov al, [ebx]
+    26 00000019 8A22                                mov ah, [edx]
+    27 0000001B 38E0                                cmp al, ah
+    28 0000001D 7505                                jne final
+    29 0000001F AA                                  stosb
+    30 00000020 43                                  inc ebx
+    31 00000021 42                                  inc edx
+    32                                          
+    33 00000022 E2F3                            loop repeta
+    34                                          
+    35                                          final:
+    36 00000024 C3                              ret

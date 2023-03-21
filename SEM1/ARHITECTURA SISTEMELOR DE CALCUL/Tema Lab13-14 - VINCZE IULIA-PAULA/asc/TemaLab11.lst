@@ -1,0 +1,42 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit,printf
+     5                                  import exit msvcrt.dll
+     6                                  import printf msvcrt.dll
+     7                                  
+     8                                  extern prefix
+     9                                  
+    10                                  segment data use32 class=data public
+    11                                      
+    12 00000000 696D70696564696361-         sir1 db "impiedicat",0
+    12 00000009 7400               
+    13                                      l1 equ $-sir1
+    14 0000000B 696D62617472616E69-         sir2 db "imbatranit",0
+    14 00000014 7400               
+    15 00000016 696D706F7472697669-         sir3 db "impotrivit",0
+    15 0000001F 7400               
+    16 00000021 257300                      format db "%s",0
+    17 00000024 00<rept>                    rez12 times l1 db 0
+    18                                      
+    19                                  segment code use32 class=code public
+    20                                      start:
+    21                                          ;7. Se dau trei siruri de caractere. Sa se afiseze cel mai lung prefix comun pentru fiecare din cele trei perechi de cate doua siruri ce se pot forma.
+    22                                          ;Programare multi-modul (asm+asm) - VINCZE IULIA-PAULA
+    23                                          
+    24                                          ;prefix(sir1,l1,sir2,rez12)
+    25 00000000 68[24000000]                    push dword rez12
+    26 00000005 68[0B000000]                    push dword sir2
+    27 0000000A 6A0B                            push dword l1
+    28 0000000C 68[00000000]                    push dword sir1
+    29 00000011 E8(00000000)                    call prefix
+    30 00000016 83C414                          add esp,4*5
+    31                                          
+    32                                          ;printf(format,rez12)
+    33 00000019 68[24000000]                    push dword rez12
+    34 0000001E 68[21000000]                    push dword format
+    35 00000023 FF15[00000000]                  call [printf]
+    36 00000029 83C408                          add esp,4*2
+    37                                          
+    38 0000002C 6A00                            push    dword 0
+    39 0000002E FF15[00000000]                  call    [exit]

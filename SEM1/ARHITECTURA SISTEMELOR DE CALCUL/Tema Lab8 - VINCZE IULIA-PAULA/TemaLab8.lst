@@ -1,0 +1,39 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit
+     5                                  import exit msvcrt.dll
+     6                                  
+     7                                  segment data use32 class=data
+     8                                      
+     9 00000000 785634124D3C2B1A76-         s dd 12345678h,1A2B3C4Dh,0FE98DC76h
+     9 00000009 DC98FE             
+    10                                      len equ ($-s)/4
+    11 0000000C 03                          trei db 3
+    12 0000000D 00<rept>                    d times len db 0 ; d=12h
+    13                                      
+    14                                  segment code use32 class=code
+    15                                      start:
+    16                                          ; Se da un sir de dublucuvinte. Sa se obtina sirul format din octetii superiori ai cuvitelor superioare din elementele sirului de dublucuvinte care sunt divizibili cu 3
+    17                                          
+    18 00000000 BE[00000000]                    mov esi, s
+    19 00000005 BF[0D000000]                    mov edi, d
+    20 0000000A FC                              cld 
+    21 0000000B B903000000                      mov ecx, len
+    22                                          
+    23                                          repeta:
+    24 00000010 AD                                  lodsd
+    25 00000011 C1E818                              shr eax, 24 
+    26 00000014 6650                                push ax
+    27 00000016 F635[0C000000]                      div byte [trei]
+    28 0000001C 80FC00                              cmp ah, 0
+    29                                              
+    30 0000001F 7503                                jnz nedivizibil
+    31 00000021 6658                                pop ax
+    32 00000023 AA                                  stosb
+    33                                              
+    34                                              nedivizibil:
+    35 00000024 E2EA                            loop repeta
+    36                                          
+    37 00000026 6A00                            push    dword 0
+    38 00000028 FF15[00000000]                  call    [exit]

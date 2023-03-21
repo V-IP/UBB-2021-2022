@@ -1,0 +1,36 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start
+     4                                  
+     5                                  extern exit
+     6                                  import exit msvcrt.dll
+     7                                  
+     8                                  segment data use32 class=data
+     9                                      ;a-doubleword; b-byte; c-word; x-qword
+    10 00000000 2D                          b db 45 ;al
+    11 00000001 0F00                        ce dw 15 ;ax
+    12 00000003 C8000000                    a dd 200 ;eax
+    13 00000007 0200000000000000            x dq 2
+    14                                      
+    15                                  segment code use32 class=code
+    16                                      start:
+    17                                          ;5. (a+b/c-1)/(b+2)-x - VINCZE M. IULIA-PAULA
+    18                                          ; - Interpretare fara semn
+    19 00000000 BA00000000                      mov edx, 0
+    20 00000005 B800000000                      mov eax, 0
+    21 0000000A A0[00000000]                    mov al, [b] ;dx:ax=b
+    22 0000000F 66F735[01000000]                div word [ce] ;ax=b/c
+    23 00000016 660305[03000000]                add ax, [a]
+    24 0000001D 661315[05000000]                adc dx, [a+2] ;dx:ax=a+b/c
+    25 00000024 6683E801                        sub ax, word 1
+    26 00000028 6683DA00                        sbb dx, 0
+    27 0000002C 66BB0000                        mov bx, 0
+    28 00000030 8A1D[00000000]                  mov bl, [b]
+    29 00000036 6683C302                        add bx, word 2
+    30 0000003A 66F7F3                          div bx ;ax=(a+b/c-1)/(b+2)
+    31 0000003D BA00000000                      mov edx, 0
+    32 00000042 2B05[07000000]                  sub eax, [x]
+    33 00000048 1B15[0B000000]                  sbb edx, [x+4] ;edx:eax=(a+b/c-1)/(b+2)-x
+    34                                          
+    35 0000004E 6A00                            push    dword 0
+    36 00000050 FF15[00000000]                  call    [exit]

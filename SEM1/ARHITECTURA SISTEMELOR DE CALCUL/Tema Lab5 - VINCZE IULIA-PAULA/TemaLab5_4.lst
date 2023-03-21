@@ -1,0 +1,40 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start
+     4                                  
+     5                                  extern exit
+     6                                  import exit msvcrt.dll
+     7                                  
+     8                                  segment data use32 class=data
+     9                                      ;a-doubleword; b-byte; c-word; x-qword
+    10 00000000 2D                          b db 45
+    11 00000001 F1FF                        ce dw -15
+    12 00000003 C8000000                    a dd 200
+    13 00000007 FEFFFFFFFFFFFFFF            x dq -2
+    14                                      ; rez = 6
+    15                                      
+    16                                  segment code use32 class=code
+    17                                      start:
+    18                                          ;5. (a+b/c-1)/(b+2)-x - VINCZE M. IULIA-PAULA
+    19                                          ; - Interpretare cu semn
+    20 00000000 A0[00000000]                    mov al, [b] ;al=b
+    21 00000005 6698                            cbw ;ax=b
+    22 00000007 6683C002                        add ax, word 2 ;ax=b+2
+    23 0000000B 6689C3                          mov bx, ax ;bx=b+2
+    24 0000000E A0[00000000]                    mov al, [b] ;al=b
+    25 00000013 6698                            cbw
+    26 00000015 6699                            cwd ;dx:ax=b
+    27 00000017 66F73D[01000000]                idiv word [ce] ;ax=b/c
+    28 0000001E 6699                            cwd ;dx:ax=b/c
+    29 00000020 660305[03000000]                add ax, [a]
+    30 00000027 661315[05000000]                adc dx, [a+2] ;dx:ax=a+b/c
+    31 0000002E 6683E801                        sub ax, word 1
+    32 00000032 6683DA00                        sbb dx, 0 ;dx:ax=a+b/c-1
+    33 00000036 66F7FB                          idiv bx ;ax=(a+b/c-1)/(b+2)
+    34 00000039 98                              cwde ;dx:ax=(a+b/c-1)/(b+2)
+    35 0000003A 99                              cdq ;edx:eax=(a+b/c-1)/(b+2)
+    36 0000003B 2B05[07000000]                  sub eax, [x]
+    37 00000041 1B15[0B000000]                  sbb edx, [x+4] ;edx:eax=(a+b/c-1)/(b+2)-x
+    38                                          
+    39 00000047 6A00                            push    dword 0
+    40 00000049 FF15[00000000]                  call    [exit]
