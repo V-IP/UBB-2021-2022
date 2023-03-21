@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1654011665 source:d:\ubb\anul 1\sem 2\algoritmica grafelor\sapt. 12\laborator 6\lab6.2\main.cpp
+	<queue>
+	<fstream>
+	<list>
+	<stack>
+	<vector>
+	<unordered_set>
+

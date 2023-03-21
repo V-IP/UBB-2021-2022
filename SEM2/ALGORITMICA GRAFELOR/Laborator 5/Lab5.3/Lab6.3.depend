@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1652832643 source:d:\ubb\anul 1\sem 2\algoritmica grafelor\sapt. 10\lab6.3\main.cpp
+	<bits/stdc++.h>
+
+1652833243 source:d:\ubb\anul 1\sem 2\algoritmica grafelor\sapt. 12\laborator 6\lab6.3\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<stack>
+

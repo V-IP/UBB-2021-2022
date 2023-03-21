@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1652802518 source:d:\ubb\anul 1\sem 2\algoritmica grafelor\sapt. 10\lab5huff\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

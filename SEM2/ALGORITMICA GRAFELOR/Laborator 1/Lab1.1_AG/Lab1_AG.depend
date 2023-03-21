@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1646151485 source:c:\users\asus\onedrive\desktop\lab1_ag\main.cpp
+	<iostream>
+	<fstream>
+

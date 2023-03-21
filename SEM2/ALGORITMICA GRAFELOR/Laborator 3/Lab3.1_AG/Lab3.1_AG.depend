@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1648566310 source:d:\ubb\anul 1\sem 2\algoritmica grafelor\sapt. 4\laborator 2\lab3.1_ag\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<queue>
+
+1648568198 source:d:\ubb\anul 1\sem 2\algoritmica grafelor\sapt. 6\laborator 3\lab3.1_ag\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<queue>
+
