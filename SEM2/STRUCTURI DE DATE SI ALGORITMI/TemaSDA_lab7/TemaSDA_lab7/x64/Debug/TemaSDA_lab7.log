@@ -1,0 +1,3 @@
+﻿  Colectie.cpp
+D:\UBB\ANUL 1\SEM 2\STRUCTURI DE DATE SI ALGORITMI\TemaSDA_lab7\TemaSDA_lab7\Colectie.cpp(220): warning C4715: 'Colectie::cauta_rec': not all control paths return a value
+  TemaSDA_lab7.vcxproj -> D:\UBB\ANUL 1\SEM 2\STRUCTURI DE DATE SI ALGORITMI\TemaSDA_lab7\x64\Debug\TemaSDA_lab7.exe

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemaSDA_lab6", "TemaSDA_lab6\TemaSDA_lab6.vcxproj", "{4982F278-2924-432A-8715-0AF1EB4169AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4982F278-2924-432A-8715-0AF1EB4169AB}.Debug|x64.ActiveCfg = Debug|x64
+		{4982F278-2924-432A-8715-0AF1EB4169AB}.Debug|x64.Build.0 = Debug|x64
+		{4982F278-2924-432A-8715-0AF1EB4169AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{4982F278-2924-432A-8715-0AF1EB4169AB}.Debug|x86.Build.0 = Debug|Win32
+		{4982F278-2924-432A-8715-0AF1EB4169AB}.Release|x64.ActiveCfg = Release|x64
+		{4982F278-2924-432A-8715-0AF1EB4169AB}.Release|x64.Build.0 = Release|x64
+		{4982F278-2924-432A-8715-0AF1EB4169AB}.Release|x86.ActiveCfg = Release|Win32
+		{4982F278-2924-432A-8715-0AF1EB4169AB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29E08D1C-613A-4B96-8567-D4205C06C694}
+	EndGlobalSection
+EndGlobal

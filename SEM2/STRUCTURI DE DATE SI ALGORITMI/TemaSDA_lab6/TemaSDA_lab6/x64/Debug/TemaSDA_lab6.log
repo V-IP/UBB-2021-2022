@@ -1,0 +1,4 @@
+﻿  TestExtins.cpp
+D:\UBB\ANUL 1\SEM 2\STRUCTURI DE DATE SI ALGORITMI\TemaSDA_lab6\TemaSDA_lab6\TestExtins.cpp(120,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\UBB\ANUL 1\SEM 2\STRUCTURI DE DATE SI ALGORITMI\TemaSDA_lab6\TemaSDA_lab6\TestExtins.cpp(138,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  TemaSDA_lab6.vcxproj -> D:\UBB\ANUL 1\SEM 2\STRUCTURI DE DATE SI ALGORITMI\TemaSDA_lab6\x64\Debug\TemaSDA_lab6.exe
